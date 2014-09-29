@@ -1,0 +1,17 @@
+<div class="header">
+    <ul class="nav  pull-right">
+        {% if site.github_username %}
+        	<li class="social-li"><a href="#"><img src="../images/fb.png" alt="Facebook" /></a></li>
+        {% endif %}
+        {% if site.twitter_username %}
+        	<li class="social-li"><a href="#"><img src="../images/tw.png" alt="Twitter" /></a></li>
+        {% endif %}
+        {% if site.linkedin_username %}	
+        	<li class="social-li"><a href="#"><img src="../images/gplus.png" alt="Google Plus" /></a></li>
+        {% endif %}
+
+    </ul>
+    <img src="../images/fotocv.jpg" id="avatar" alt="Perfil" class="img-rounded">
+    <h3 class="text-muted">{{site.fullname}}</h3>
+    <h4 class="text-muted">{{site.job}} - {{site.location}} </h3>
+</div>
