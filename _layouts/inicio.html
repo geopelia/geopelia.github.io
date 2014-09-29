@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    {% include head_bs.html %}
+    <body>
+    	<div class="container">
+    		{% include header_inicio.html %}
+    		<div class="cuerpo">
+    			{{ content }}
+                <h4>Repositorios</h4>
+        <ul id="repos"></ul>
+        <h4>Gist</h4>
+        <ul id="gist"></ul>
+    		</div>
+
+    	</div>	
+    	{% include footer_inicio.html %}
+    </body>
+
+</html>

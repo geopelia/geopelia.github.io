@@ -1,0 +1,101 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  /*background-color: #DDB99A;*/
+  background: url('../images/bg01.png') repeat scroll 0% 0% #DDB99A;
+  /*margin-bottom: 60px;*/
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.cuerpo,
+{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.header h4 {
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+/* Custom page footer */
+.footer {
+  /*position: relative;
+  bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #0F1523;
+  color: #fff;
+
+  /*border-top: 1px solid #e5e5e5;*/
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+img#avatar {
+  max-width: 220px;
+  padding-left: 80px;
+  display: block;
+  margin: auto;
+}
+
+/* Supporting marketing content */
+.cuerpo {
+  margin: 10px 0;
+}
+
+li.social-li {
+  float: left;
+  width: 30px;
+}
+
+li.social-li a:hover, li.social-li a:focus {
+  background: none;
+}
+
+.cuerpo p {
+  text-align: center;
+  margin-top: 30px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .cuerpo
+  {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  .footer .container p {
+    margin-top: 15px;
+  }
+}

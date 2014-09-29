@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: xr900geopelia
 github_username:  geopelia
-
+linkedin_username: atilioquintero
+fullname: Atilio Quintero
+job: Ing. en Informática
+location: Caracas
 # Build settings
 markdown: kramdown
