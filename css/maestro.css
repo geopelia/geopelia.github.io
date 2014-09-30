@@ -47,6 +47,10 @@ body {
   /*border-top: 1px solid #e5e5e5;*/
 }
 
+.footer a {
+  color: #fff;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
@@ -59,7 +63,7 @@ body {
 
 img#avatar {
   max-width: 220px;
-  padding-left: 80px;
+  padding-left: 100px;
   display: block;
   margin: auto;
 }
@@ -71,11 +75,15 @@ img#avatar {
 
 li.social-li {
   float: left;
-  width: 30px;
+  width: 35px;
 }
 
 li.social-li a:hover, li.social-li a:focus {
   background: none;
+}
+
+li.social-li a img {
+  width: 32px;
 }
 
 .cuerpo p {

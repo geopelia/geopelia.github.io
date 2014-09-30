@@ -11,5 +11,8 @@ linkedin_username: atilioquintero
 fullname: Atilio Quintero
 job: Ing. en Informática
 location: Caracas
+gravatar: fa56cd3e165bc33c78ceb6614efac9bc
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-redirect-from

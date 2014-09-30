@@ -5,11 +5,13 @@
     	<div class="container">
     		{% include header_inicio.html %}
     		<div class="cuerpo">
-    			{{ content }}
+    			{{ content }}                
+                {% if page.url == '/atilio/' %}
                 <h4>Repositorios</h4>
-        <ul id="repos"></ul>
-        <h4>Gist</h4>
-        <ul id="gist"></ul>
+                <ul id="repos"></ul>
+                <h4>Gist</h4>
+                <ul id="gist"></ul>
+                {% endif %}
     		</div>
 
     	</div>	

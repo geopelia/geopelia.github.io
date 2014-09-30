@@ -1,8 +1,10 @@
 <div class="footer">
 	<div class="container">
-        <p>&copy; {{ site.time | date: '%Y' }} Hecho por {{ site.fullname }}</p>
+        <p>&copy; 2014 Hecho por <a alt="Inicio" class="site-title" href="{{"/atilio" | prepend: site.baseurl }}/">{{ site.fullname }}</a> con una <a href="{{ "/reconocimiento/" | prepend: site.baseurl }}">ayudaita</a></p>
     </div>
 </div>
+{% if page.url == '/atilio/' %}
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="{{ "/scripts/jquery.js" | prepend: site.baseurl }}"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="{{ "/scripts/main.js" | prepend: site.baseurl }}"></script>
+{% endif %}

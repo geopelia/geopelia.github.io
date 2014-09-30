@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
         var p = element.files;
         for (var key in p) {
           if (p.hasOwnProperty(key)) {
-            title = '<strong>' + key + ':</strong> ';
+            title = '<a alt="Link in Github" href="' + element.url + '"><strong>' + key + ':</strong></a> ';
             break;
           }
         }
@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
     var data = response.data;
     data.forEach(function(element, index, array) {
         var desc = element.description;
-        var title = '<strong>' + element.name + ':</strong> ';
+        var title = '<a alt="Link in Github" href="' + element.url + '"><strong>' + element.name + ':</strong></a> ';
         $('ul#repos').append('<li>' + title + desc + '</li>');
     });
   });
