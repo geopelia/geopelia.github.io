@@ -75,15 +75,23 @@ img#avatar {
 
 li.social-li {
   float: left;
+
+}
+
+li.social-li a {
   width: 35px;
+  height: 35px;
+}
+li.social-li a.linkedin {
+  background: url('../images/Linkedin.png') no-repeat scroll center /75% transparent;
 }
 
-li.social-li a:hover, li.social-li a:focus {
-  background: none;
-}
+li.social-li a.twitter {
+  background: url('../images/Twitter-Bird.png') no-repeat scroll center /75% transparent;
 
-li.social-li a img {
-  width: 32px;
+}
+li.social-li a.github {
+  background: url('../images/Github.png') no-repeat scroll center /75% transparent;
 }
 
 .cuerpo p {
